@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 //🚀🚀🚀  Topic #1 Closures 🚀🚀🚀//
 /* 🚀🚀🚀🤓 Task 1: 🤓🚀🚀🚀 
 Study the code below and explain in your own words why nested function can access the variable internal. */
@@ -17,7 +18,9 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+/* The function nestedFunction() can access the variable internal because the closure of nestedFunction() includes the scope/context of its creation. 'internal' is created
+as a part of myFunction(), which is external to nestedFunction() and therefore within nestedFunction()'s scope. If there were a variable created within nestedFunction(), however,
+myFunction() would not have access to that variable. */
 
 
 
